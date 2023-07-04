@@ -47738,7 +47738,7 @@
         }
       },
       "DeleteObjectsRequest": {
-        "type": "array",
+        "type": "object",
         "xml": {
           "wrapped": true,
           "name": "Delete"
@@ -52761,7 +52761,7 @@
         },
         "properties": {
           "Buckets": {
-            "type": "array",
+            "type": "object",
             "xml": {
               "wrapped": true
             },
