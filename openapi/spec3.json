@@ -1980,7 +1980,7 @@
             "required": false,
             "schema": {
               "title": "Page",
-              "minimum": 1.0,
+              "minimum": 1,
               "type": "integer",
               "default": 1
             },
@@ -12371,7 +12371,7 @@
             "required": true,
             "schema": {
               "title": "Page",
-              "minimum": 1.0,
+              "minimum": 1,
               "type": "integer"
             },
             "name": "page",
@@ -12382,7 +12382,7 @@
             "required": true,
             "schema": {
               "title": "Page Size",
-              "minimum": 1.0,
+              "minimum": 1,
               "type": "integer",
               "description": "\n        Request this many records per page\n\n        This value is automatically clamped if the provided value is too large.\n        "
             },
